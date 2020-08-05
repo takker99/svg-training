@@ -1,41 +1,12 @@
-<svg
-   xmlns="http://www.w3.org/2000/svg"
-     viewBox="meet"
-     width="640"
-     height="480"
-   >
-  <defs>
-    <linearGradient
-       id="linearGradient1"
-       x1="0%"
-       y1="0%"
-       x2="0%"
-       y2="100%"
-       >
-      <stop
-         id="stop871"
-         offset="0"
-         stop-color="#808080" />
-      <stop
-         id="stop873"
-         offset="1"
-         stop-color="#FFF" />
-    </linearGradient>
-  </defs>
-  <g
-     id="button">
-    <rect
-       y="0"
-       x="0"
-       height="100"
-       width="400"
-       style="fill:url(#linearGradient1)" />
-    <text
-       x="200"
-       y="50"
-       font-size="60"
-       text-anchor="middle"
-       dominant-baseline="middle"
-       >Button</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" height="100" width="400" viewBox="meet">
+    <defs id="def1">
+        <linearGradient y2="100%" x2="0%" y1="0%" x1="0%" id="linearGradient1">
+            <stop stop-color="#808080" offset="0" id="start" />
+            <stop stop-color="#FFF" offset="1" id="end" />
+        </linearGradient>
+    </defs>
+    <g id="button">
+        <rect id="button-layout" style="fill:url(#linearGradient1)" width="400" height="100" x="0" y="0" />
+        <text id="button-text" dominant-baseline="middle" text-anchor="middle" font-size="60" y="50" x="200">Button</text>
+    </g>
 </svg>
